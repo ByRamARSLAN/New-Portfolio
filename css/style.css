@@ -1,0 +1,396 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0;
+    background-color: #122e44;
+}
+
+.section_title{
+    margin-bottom: 30px;
+}
+
+.section_title h2{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+}
+
+.section_title h2:hover{
+    background-color: #24caac;
+}
+
+
+/* Header */
+
+header{
+    background-color: rgb(44, 37, 37);
+    border-bottom: 1px solid #ffffff62;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+#menu-bar{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.nav-links{
+    display: flex;
+
+}
+
+.nav-links li a{
+    margin-left: 15px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.nav-links li a:hover{
+    background-color: #24caac;
+}
+
+.logo h2 a{
+    color: rgb(10, 128, 207);
+    text-transform: uppercase;
+}
+
+/* anasayfa */
+
+.inner_anasayfa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+}
+
+.child_anasayfa{
+    flex-basis: 45%;
+}
+
+.child_anasayfa h1{
+    font-size: 50px;
+    color: #24caac;
+}
+
+.span_child{
+    color: #e0376f;
+}
+
+.child_anasayfa p{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.btn{
+    background-color: #24caac;
+    padding: 10px 28px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #24caac;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn:hover{
+    background-color: transparent;
+    letter-spacing: 2px;
+}
+
+/* ! yazılımlar */
+
+.innersoftware{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.innersoftware_child{
+    flex-basis: 22%;
+    color: #fff;
+    padding: 25px 20px;
+    background-color: rgba(55, 66, 80, 0.281);
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.innersoftware_child:hover {
+    border: 1px solid #24caac;
+    box-shadow: 0px 0px 10px #24caac;
+    transform: scale(1.03);
+}
+
+.innersoftware_child .icon{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.innersoftware_child h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.innersoftware_child p{
+    font-size: 16px;
+}
+
+/* ! sertifikalarım */
+
+.inner_courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child_courses{
+    flex-basis: 24%;
+    color: #fff;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+    transition: .3s;
+    border-radius: 5px;
+    background-color: rgba(55, 66, 80, 0.281);
+}
+
+.child_courses:hover{
+    border: 1px solid #24caac;
+    box-shadow: 0px 0px 10px #24caac;
+    transform: scale(1.03);
+}
+
+.child_courses .detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.child_courses .detail ul{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.child_courses .detail ul li{
+    color: gold;
+}
+
+/* ! BASARILAR */
+
+.inner_achivement{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.child_achivement{
+    flex-basis: 45%;
+}
+
+.child_achivement img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.child_achivement2{
+    flex-basis: 46%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.single_detail{
+    flex-basis: 48%;
+    padding: 40px 30px;
+    color: #fff;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.single_detail:hover{
+    transform: scale(1.03);
+    
+}
+
+.sd_1{
+    background-color: #e0376f;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px #e0376f;
+}
+
+.sd_2{
+    background-color: gold;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px gold;
+}
+
+.sd_3{
+    background-color: #24caac;
+    box-shadow: 0px 0px 10px #24caac;
+}
+
+.sd_4{
+    background-color: #000;
+    box-shadow: 0px 0px 10px #000;
+}
+
+/* ! hakkımda */
+
+.what_said{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.said{
+    flex-basis: 45%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: .3s;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: rgba(55, 66, 80, 0.281);
+}
+
+.said a{
+    color: gold;
+}
+
+.said a:hover{
+    text-decoration: underline;
+}
+
+.said:hover{
+    border: 1px solid #24caac;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px #24caac;
+}
+
+.what_said img{
+    width: 80px;
+    border-radius: 50%;
+}
+.a_etiketi{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+
+/* iletişim */
+
+.inner_contact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.inner_img{
+    height: 100%;
+    flex-basis: 45%;
+}
+
+.inner_input{
+    width: 50%;
+    height: 100%;
+}
+
+.inner_input form{
+    padding: 50px 40px;
+    background-color: #2f363f;
+    border-radius: 5px;
+    flex-basis: 45%;
+    
+}
+
+.inner_input form input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #24292d;
+    border-radius: 20px;
+    border: none;
+    resize: none;
+    transition: .3s ease-in;
+}
+
+.inner_input form input, textarea:focus{
+    color: #fff;
+}
+
+#submit{
+    margin-bottom: 0;
+    background-color: #24caac;
+    border: 1px solid #24caac;
+    transition: .3s;
+}
+
+#submit:hover{
+    background-color: transparent;
+    box-shadow: 0px 0px 10px #24caac;
+    color: #fff;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.child_footer span{
+    color: gold;
+}

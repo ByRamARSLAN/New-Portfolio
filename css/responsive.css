@@ -1,0 +1,132 @@
+@media screen and (max-width: 720px) {
+  .navbar {
+    width: 90%;
+  }
+
+  .logo h2 a {
+    font-size: 20px;
+  }
+
+  #menu-bar {
+    display: grid;
+    color: #fff;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    /* border: 1px solid #fff; */
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    background-color: #24292d;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    padding: 0;
+  }
+
+  .nav-links li a {
+    border-bottom: 1px solid #fff;
+    display: block;
+    border-radius: 0;
+    padding: 10px 0;
+    margin: 0 20px;
+  }
+
+  .nav-links li:last-child a {
+    border-bottom: none;
+  }
+
+  .inner_anasayfa {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .child_anasayfa {
+    flex-basis: 100%;
+  }
+
+  .child_anasayfa h1{
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .child_anasayfa p{
+    font-size: 20px;
+  }
+
+  /* ! yazılımlar */
+
+  .innersoftware{
+    flex-wrap: wrap;
+  }
+
+  .innersoftware_child{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* ! sertifikalarım */
+
+  .inner_courses{
+    flex-wrap: wrap;
+  }
+
+  .child_courses{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* basarilar */
+
+  .inner_achivement{
+    flex-wrap: wrap;
+  }
+
+  .child_achivement{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .child_achivement2, .what_said{
+    flex-basis: 100%;
+  }
+
+  .single_detail{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .said{
+    flex-basis: 100%;
+  }
+
+  .said:last-child{
+    margin-bottom: 0;
+  }
+
+  /* ! iletisim */
+
+  .inner_contact{
+    flex-basis: 100%;
+  }
+
+  .inner_img{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .inner_input{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+
+
+}
